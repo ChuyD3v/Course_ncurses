@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <ncurses.h>
-#include "Components/Window/Widget.h"
+#include <Components/Window/Widget.h">
 
 #ifndef VALUE
 #define VALUE 10

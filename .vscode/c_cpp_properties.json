@@ -6,7 +6,7 @@
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/Components/Window",
                 "/usr/include",
-                "/usr/include/ncurses"
+                "/usr/include/ncursesw"
             ],
             "defines": [
                 "VALUE=10"

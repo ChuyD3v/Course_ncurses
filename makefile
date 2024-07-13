@@ -12,7 +12,8 @@ app1: main
 
 # Regla de compilación principal
 main: $(SRC)
-	$(CC) $(CFLAGS) -DVALUE=$(VALUE) $(SRC) -o main $(LDFLAGS)
+	mkdir build
+	$(CC) $(CFLAGS) -DVALUE=$(VALUE) $(SRC) -o build/main $(LDFLAGS)
 
 # Regla para limpiar archivos generados
 clean:
